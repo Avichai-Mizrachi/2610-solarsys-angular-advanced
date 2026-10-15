@@ -11,7 +11,7 @@
   "type": "commonjs",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "cls && node main.js && echo \"Main.js has finished executing\"" 
   },
   "dependencies": {
     "@colors/colors": "^1.6.1",
