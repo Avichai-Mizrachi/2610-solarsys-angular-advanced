@@ -1,0 +1,16 @@
+{
+  "name": "fun-with-node",
+  "version": "1.0.0",
+  "description": "having some fun",
+  "keywords": [
+    "fun",
+    "javascript"
+  ],
+  "license": "ISC",
+  "author": "Kobi Hari",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
