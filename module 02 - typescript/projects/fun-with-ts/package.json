@@ -7,8 +7,8 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", 
-    "build": "tsc --watch"
+    "build": "tsc --watch", 
+    "start": "node ./bin/main.js"
   },
   "dependencies": {
     "mathjs": "^15.2.0"
