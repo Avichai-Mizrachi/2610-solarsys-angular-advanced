@@ -14,3 +14,4 @@ function goSomewhere(direction) {
     console.log(`Going ${direction}`);
 }
 goSomewhere("North");
+//# sourceMappingURL=main.js.map

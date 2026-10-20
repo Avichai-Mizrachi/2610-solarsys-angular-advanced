@@ -19,3 +19,4 @@ class Calculator {
     }
 }
 exports.Calculator = Calculator;
+//# sourceMappingURL=calculator.js.map
