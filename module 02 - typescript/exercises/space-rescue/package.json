@@ -1,0 +1,15 @@
+{
+  "name": "space-rescue",
+  "version": "1.0.0",
+  "description": "A space rescue mission planner",
+  "license": "ISC",
+  "author": "Avichai",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
