@@ -1,0 +1,10 @@
+<div class="texts">
+    <div class="name">{{product().name}}</div>
+    <div class="category">{{product().category}}</div>
+</div>
+<div class="price">
+    {{price()}}
+</div>
+<button (click)="addToCart.emit()">
+    Add to cart
+</button>

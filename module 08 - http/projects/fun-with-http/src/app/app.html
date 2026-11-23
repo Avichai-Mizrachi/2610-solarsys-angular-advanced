@@ -1,0 +1,13 @@
+<input type="search" #searchBox (input)="searchText.set(searchBox.value)">
+<h1>Status: {{colorsResource.status()}}</h1>
+@if(busy()) {
+    <div>
+      loading...
+    </div>
+}
+
+<div class="colors">
+  @for(clr of colorsResource.value(); track clr.id) {
+    <app-color-presenter [color]="clr"/>
+  }
+</div>
