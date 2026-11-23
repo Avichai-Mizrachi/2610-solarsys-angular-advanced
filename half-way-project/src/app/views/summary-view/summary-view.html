@@ -1,0 +1,14 @@
+<h2>Summary</h2>
+
+<div class="cards">
+  <app-stat-card label="Total energy" [value]="vm().totalEnergy" unit="kWh" />
+  <app-stat-card label="Sunlight time" [value]="vm().totalSunlightHours" unit="hours" />
+  <app-stat-card
+    label="Energy per hour"
+    [value]="vm().energyPerHour"
+    unit="kWh per sunlight hour"
+    format="1.1-1"
+    [highlight]="true"
+  />
+  <app-stat-card label="Washes" [value]="vm().washCount" unit="in this period" />
+</div>

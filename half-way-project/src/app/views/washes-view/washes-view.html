@@ -1,0 +1,9 @@
+<h2>Washes</h2>
+
+<div class="card">
+  @for (day of vm().days; track day) {
+    <div class="row">{{ day | date }}</div>
+  } @empty {
+    <div class="empty">No washes in this period</div>
+  }
+</div>

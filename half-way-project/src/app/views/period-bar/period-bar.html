@@ -1,0 +1,8 @@
+@for (period of periods; track period.kind) {
+  <button
+    [class.selected]="period.kind === selectedKind()"
+    (click)="dashboardService.selectPeriod(period.kind)"
+  >
+    {{ period.label }}
+  </button>
+}

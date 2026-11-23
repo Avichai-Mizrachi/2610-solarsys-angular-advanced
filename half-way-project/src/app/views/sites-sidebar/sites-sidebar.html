@@ -1,0 +1,10 @@
+<h2>Sites</h2>
+
+@for (group of vm().groups; track group.region) {
+  <div class="group">
+    <div class="region">{{ group.region }}</div>
+    @for (site of group.sites; track site.id) {
+      <app-site-item [site]="site" (selectSite)="dashboardService.selectSite(site.id)" />
+    }
+  </div>
+}

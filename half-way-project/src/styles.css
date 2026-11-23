@@ -1,0 +1,64 @@
+:root {
+  --surface-color: #fff;
+  --surface-muted-color: #f4f6f7;
+  --border-color: #d7dfe3;
+  --sub-text-color: #6a7781;
+  --text-color: #25313c;
+
+  --primary-color: #16847f;
+  --primary-dark-color: #0e5a56;
+  --primary-light-color: #dff0ef;
+
+  --border: 0.0625rem solid var(--border-color);
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--surface-color);
+  color: var(--text-color);
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+select {
+  padding: 0.5rem 1rem;
+  border: var(--border);
+  border-radius: 0.3125rem;
+  background-color: var(--surface-color);
+  color: var(--text-color);
+  font-size: 0.875rem;
+}
+
+.card {
+  border: var(--border);
+  border-radius: 0.375rem;
+  padding: 1rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

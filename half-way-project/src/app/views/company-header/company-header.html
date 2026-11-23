@@ -1,0 +1,11 @@
+<h1>Solar Dashboard</h1>
+
+<select
+  [value]="selectedCompanyId()"
+  #companyBox
+  (change)="dashboardService.selectCompany(companyBox.value)"
+>
+  @for (company of companies(); track company.id) {
+    <option [value]="company.id">{{ company.name }}</option>
+  }
+</select>
